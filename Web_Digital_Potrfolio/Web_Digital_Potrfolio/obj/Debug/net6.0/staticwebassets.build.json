@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "aShdzJhWaMIZ4dhUFmq1/M4XBaL4s56wmA14Soma1kc=",
+  "Source": "Web_Digital_Potrfolio",
+  "BasePath": "_content/Web_Digital_Potrfolio",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Web_Digital_Potrfolio\\wwwroot",
+      "Source": "Web_Digital_Potrfolio",
+      "ContentRoot": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\",
+      "BasePath": "_content/Web_Digital_Potrfolio",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\css\\normalize.css",
+      "SourceId": "Web_Digital_Potrfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\",
+      "BasePath": "_content/Web_Digital_Potrfolio",
+      "RelativePath": "css/normalize.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\normalize.css"
+    },
+    {
+      "Identity": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\css\\style.css",
+      "SourceId": "Web_Digital_Potrfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\",
+      "BasePath": "_content/Web_Digital_Potrfolio",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\images\\back.png",
+      "SourceId": "Web_Digital_Potrfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\",
+      "BasePath": "_content/Web_Digital_Potrfolio",
+      "RelativePath": "images/back.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\back.png"
+    }
+  ]
+}
