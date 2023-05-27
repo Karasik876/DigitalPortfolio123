@@ -4,6 +4,7 @@ namespace Web_Digital_Potrfolio.Models;
 
 public class Resume
 {
+    [Key]
     public long Id { get; set; }
     
     public string? Surname { get; set; }

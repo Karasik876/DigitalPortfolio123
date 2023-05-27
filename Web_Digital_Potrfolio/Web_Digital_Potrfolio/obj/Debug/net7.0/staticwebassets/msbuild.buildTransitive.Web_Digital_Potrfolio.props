@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Web_Digital_Potrfolio.props" />
+</Project>
