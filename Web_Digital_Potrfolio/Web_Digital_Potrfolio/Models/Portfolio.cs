@@ -4,6 +4,7 @@ namespace Web_Digital_Potrfolio.Models;
 
 public class Portfolio
 {
+   [Key]
    public long Id { get; set; }
    
    [Required]
@@ -16,7 +17,7 @@ public class Portfolio
    public string? UrlGitHub { get; set; }
    
    [Required]
-   public int UserId { get; set; }
+   public long UserId { get; set; }
    
    
    public virtual User User { get; set; }
