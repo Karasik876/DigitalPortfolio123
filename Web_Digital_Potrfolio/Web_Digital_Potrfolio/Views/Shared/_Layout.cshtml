@@ -6,31 +6,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="~/css/normalize.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/style.css" rel="stylesheet" asp-append-version="true" />
     <title>@ViewData["Title"] - Portfolio</title>
-
 </head>
 <body>
 <header class="header">
     <div class="container">
         <nav class="nav">
-            <a href="#" class="name">Digital Portfolio</a>
+            <a class="name" asp-area="" asp-controller="Home" asp-action="Index">Digital Portfolio</a>
             <ul class="menu">
                 <li class="menu-item">
-                    <a href="#" class="menu-link">Резюме</a>
+                    <a class="menu-link" asp-area="" asp-controller="Home" asp-action="Resume">Резюме</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#" class="menu-link">Портфолио</a>
+                    <a class="menu-link" asp-area="" asp-controller="Home" asp-action="Portfolio">Портфолио</a>
                 </li>
-
             </ul>
             <ul class="log">
                 <li class="log-item">
-                    <a href="#" class="login">Вход</a>
+                    <a class="login" asp-area="" asp-controller="User" asp-action="Login">Вход</a>
                 </li>
                 <li class="log-item">
-                    <a href="#" class="register">Регистрация</a>
+                    <a class="register" asp-area="" asp-controller="User" asp-action="Registration">Регистрация</a>
                 </li>
             </ul>
         </nav>

@@ -28,10 +28,12 @@ public class RegistrationViewModel
     [Required(ErrorMessage = "Данное поле не заполнено")]
     [MinLength(6, ErrorMessage = "Слишком короткий пароль")]
     [Display(Name = "Пароль", Description = "Пароль не должен содержать не более 6 символов")]
+    [DataType(DataType.Password)]
     public string? Password { get; set; }
    
     [Required(ErrorMessage = "Данное поле не заполнено")]
     [Compare("Password", ErrorMessage = "Пароли не свопадают")]
     [Display(Name = "Подтвердите пароль")]
+    [DataType(DataType.Password)]
     public string? PasswordConfirm { get; set; }
 }

@@ -12,6 +12,22 @@ builder.Services.AddDbContext<DigitalPortfolioContext>(options =>
 });
 builder.Services.AddIdentity<User, IdentityRole<long>>().AddEntityFrameworkStores<DigitalPortfolioContext>();
 
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.Cookie.Name = "authcookie";
+    options.LoginPath = "/User/Login";
+});
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireDigit = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 6;
+
+    options.SignIn.RequireConfirmedPhoneNumber = false;
+});
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
