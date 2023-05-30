@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\My projects\\C#\\DigitalPortfolio123\\Web_Digital_Potrfolio\\Web_Digital_Potrfolio\\wwwroot\\images\\back.png",
+      "PackagePath": "staticwebassets\\images\\back.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Web_Digital_Potrfolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Web_Digital_Potrfolio.props",
+      "PackagePath": "build\\Web_Digital_Potrfolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Web_Digital_Potrfolio.props",
+      "PackagePath": "buildMultiTargeting\\Web_Digital_Potrfolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Web_Digital_Potrfolio.props",
+      "PackagePath": "buildTransitive\\Web_Digital_Potrfolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
